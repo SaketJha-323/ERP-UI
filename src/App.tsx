@@ -8,8 +8,8 @@ import CreateProject from "./front-end/pages/CreateProject";
 import ProjectDashboard from "./front-end/pages/ProjectDashboard";
 
 import BOQ from "./front-end/pages/BOQ";
-
 import TechSheet from "./front-end/pages/TechSheet";
+import ShopDrawing from "./front-end/pages/ShopDrawing";
 
 import WorkOrder from "./front-end/pages/WorkOrder";
 import WODashboard from "./front-end/pages/WODashboard";
@@ -32,7 +32,8 @@ export default function App() {
 
           {/* PROJECT MODULE ROUTES */}
           <Route path="/projects/:id/boq" element={<BOQ />} />
-          <Route path="/projects/:id/techsheet" element={<TechSheet />}></Route>
+          <Route path="/projects/:id/techsheet" element={<TechSheet />} />
+          <Route path="/projects/:id/shopdrawing" element={<ShopDrawing />} />
           <Route path="/projects/:id/inventory" element={<Inventory />} />
           <Route path="/projects/:id/wo" element={<WorkOrder />} />
 

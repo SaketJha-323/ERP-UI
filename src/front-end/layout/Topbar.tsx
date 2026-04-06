@@ -37,7 +37,7 @@ export default function Topbar() {
         className="btn btn-sm btn-outline-secondary me-3"
         onClick={handleBack}
       >
-        ←
+        Back
       </button>
 
       {/* 🔹 Page Title */}

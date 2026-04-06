@@ -164,7 +164,7 @@ export default function ProjectDashboard() {
 
             <div className="col-md-3">
               <Link
-                to={`/projects/${id}/shop`}
+                to={`/projects/${id}/shopdrawing`}
                 className="btn btn-outline-secondary btn-sm w-100"
               >
                 Shop Drawing
